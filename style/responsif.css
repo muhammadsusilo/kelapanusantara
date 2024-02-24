@@ -74,12 +74,21 @@
 
 /* Mobile Phone */
 
-@media (max-width: 450px) {
+@media (max-width: 430px) {
     html {
         font-size: 55%;
     }
     .hero .contain {
         margin: auto 5%;
+    }
+    .row {
+        justify-content: center;
+    }
+    .menu-kelapa .row .row-kartu img {
+        width: 310px;
+    }
+    .row-kartu p {
+        width: 310px;
     }
     .about h2,
     .menu-kelapa h2 {

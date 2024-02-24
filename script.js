@@ -35,17 +35,16 @@ const data = [{
 ]
 
 const rowCart = document.querySelectorAll(".row-kartu");
-for (let i = 0; i < rowCart.length; i++) {
-    if (rowCart[i].innerHTML) {
-        `
-            <div class="row-kartu">
-                <img src=${data.image} alt="menu1" class="menu-kartu-img" />
-                <h3 class="menu-kartu-text">${data.header}</h3>
-                <p class="menu-card-deskripsi">
-                    ${data.description}	
-                </p>
-            </div>
-        `
-    }
-
-}
+// for (let i = 0; i < rowCart.length; i++) {
+//     if (rowCart[i].innerHTML) {
+//         `
+//             <div class="row-kartu">
+//                 <img src=${data.image} alt="menu1" class="menu-kartu-img" />
+//                 <h3 class="menu-kartu-text">${data.header}</h3>
+//                 <p class="menu-card-deskripsi">
+//                     ${data.description}	
+//                 </p>
+//             </div>
+//         `
+//     }
+// }

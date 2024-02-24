@@ -231,6 +231,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    justify-content: center;
 }
 
 .row-kartu {
@@ -241,8 +242,9 @@ body {
 }
 
 .menu-kelapa .row .row-kartu img {
+    /* width: 410px;
+    height: 290px; */
     width: 410px;
-    height: 290px;
     border-radius: 10px;
     object-fit: cover;
 }
